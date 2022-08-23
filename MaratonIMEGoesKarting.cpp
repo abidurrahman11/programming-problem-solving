@@ -2,33 +2,35 @@
 using namespace std;
 
 int main() {
-    int n, i, j;
+    long long n, i, bestSkill = 0, winnerIndex = 0, winners = 0;
     cin>>n;
-    int arr[n];
+    long long arr[n];
 
-    for (i = 0; i < n; i++){
+    for (i = 0; i < n; i++) {
         cin>>arr[i];
     }
 
-    int max = arr[0];
-    int winner = 0;
+    for (i = 0; i < n; i++) {
+        bestSkill = max(bestSkill, arr[i]);
+    }
 
-    for (i = 1; i < n; i++) {
-        if (arr[i] > max) {
-            winner = i;
-            max = arr[i];
+    for (i = 0; i < n; i++) {
+        if (bestSkill == arr[i]) {
+            winnerIndex = i + 1;
+            winners++;
         }
     }
 
-    for (i = winner + 1; i < n; i++) {
-        if (arr[i] == max) {
-            winner = -2;
-        }
+    if (winners == 1) {
+        cout<<winnerIndex;
+    } else {
+        cout<<-1;
     }
-
-    cout<<winner + 1;
 
     return 0;
 }
 
-//https://codeforces.com/problemset/gymProblem/101744/L
+
+//Codeforces Problem: MaratonIME goes karting
+//Status: Accepted
+//Link: https://codeforces.com/gym/100985/problem/L
