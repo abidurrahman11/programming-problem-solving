@@ -18,6 +18,7 @@ int main () {
 }
 
 
+
 //Codeforces Problem: Combination Lock
 //Status: Accepted
 //Link: https://codeforces.com/problemset/problem/540/A
