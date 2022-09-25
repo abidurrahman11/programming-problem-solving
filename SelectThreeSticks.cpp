@@ -1,4 +1,8 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<limits.h>
+#include<algorithm>
+#include<cstdlib>
 using namespace std;
 
 int main () {
@@ -15,8 +19,9 @@ int main () {
         sort(v.begin(), v.end());
 
         for (int i = 0; i < n-2; i++) {
-            int x = abs(v[i] - v[i+1]);
-            x += abs(v[i+1] - v[i+2]);
+            int d1 = abs(v[i] - v[i+1]);
+            int d2 = abs(v[i+1] - v[i+2]);
+            int x = d1 + d2;
             ans = min(ans, x);
         }
 
