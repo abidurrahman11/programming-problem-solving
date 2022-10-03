@@ -26,6 +26,8 @@ int main () {
 }
 
 
+
+
 //Codeforces Problem: Haiku
 //Status: Accepted
 //Link: https://codeforces.com/problemset/problem/78/A
