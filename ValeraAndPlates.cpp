@@ -1,3 +1,7 @@
+// Codeforces Problem: Valera and Plates
+// Link: https://codeforces.com/contest/369/problem/A
+// Status: Accepted      Language: C++
+
 #include<iostream>
 using namespace std;
 
