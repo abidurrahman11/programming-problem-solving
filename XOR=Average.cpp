@@ -1,5 +1,5 @@
-// Codeforces Problem: 
-// Link: 
+// Codeforces Problem: XOR = Average
+// Link: https://codeforces.com/problemset/problem/1758/B
 // Status: Accepted      Language: C++
 
 #include<iostream>
