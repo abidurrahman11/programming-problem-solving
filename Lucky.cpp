@@ -1,3 +1,7 @@
+// Codeforces Problem: 1676A - Lucky?
+// Link: https://codeforces.com/problemset/problem/1676/A
+// Status: Accepted      Language: C++#include<iostream>
+
 #include<iostream>
 using namespace std;
 
