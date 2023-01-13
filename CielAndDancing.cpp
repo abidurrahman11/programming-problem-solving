@@ -1,3 +1,7 @@
+// Codeforces Problem: 322A - Ciel and Dancing
+// Link: https://codeforces.com/problemset/problem/322/A
+// Status: Accepted      Language: C++
+
 #include<iostream>
 using namespace std;
 
